@@ -1,0 +1,15 @@
+[package]
+name = "wildcard_domain_vercel"
+version = "0.1.0"
+edition = "2021"
+authors = ["Floris-xlx - floris@xylex.ai"]
+license = "MIT"
+description = "A simple library to generate wildcard domains for Vercel deployments."
+
+[dependencies]
+dotenv = "0.15.0"
+namecheap-ddns = "0.3.3"
+reqwest = { version = "0.12.5", features = ["json"] }
+serde_json = "1.0.117"
+tokio = { version = "1.38.0", features = ["full"] }
+
